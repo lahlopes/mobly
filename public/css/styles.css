@@ -1,0 +1,38 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+.pagination li.active{
+	    height: 35px;
+    width: 35px;
+    padding-top: 6px;
+    color: #FFF;
+}
+
+.pagination li{
+	height: 35px;
+    width: 35px;
+    padding-top: 3px;    
+}
+
+
+.pagination li.disabled{
+	height: 35px;
+    width: 35px;
+    padding-top: 6px;    
+}
+
+.card .card-content .card-title {
+	line-height: 20px;
+	font-size: 18px;
+}
+
+.pagination li.active {
+    background-color: #757575;
+}
